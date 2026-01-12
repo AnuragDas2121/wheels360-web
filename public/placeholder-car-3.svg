@@ -1,0 +1,10 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#f0f0f0"/>
+  <path d="M620,270 C620,230 600,220 570,220 L510,220 L470,160 L370,160 L330,220 L240,220 C210,220 180,230 180,270 L180,310 L620,310 Z" fill="#EC4899" opacity="0.8"/>
+  <circle cx="250" cy="310" r="30" fill="#333"/>
+  <circle cx="250" cy="310" r="15" fill="#666"/>
+  <circle cx="550" cy="310" r="30" fill="#333"/>
+  <circle cx="550" cy="310" r="15" fill="#666"/>
+  <path d="M230,250 L330,250 L350,190 L470,190 L490,250 L570,250" stroke="#333" stroke-width="5" fill="none"/>
+  <text x="400" y="375" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Sports Coupe</text>
+</svg>

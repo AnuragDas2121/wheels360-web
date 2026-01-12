@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  
+  <!-- Stylized Audi R8 silhouette -->
+  <path d="M200,700 C300,750 400,780 550,790 C650,795 750,780 850,750 C950,720 1050,680 1150,680 
+           C1250,680 1350,720 1450,740 C1500,750 1550,750 1600,740 C1650,730 1700,710 1750,680 
+           L1750,880 L200,880 Z" 
+        fill="#111111" />
+  
+  <!-- Hood and front design -->
+  <path d="M550,790 C600,780 650,770 700,770 C750,770 800,780 850,750 
+           C870,740 890,730 910,720 C940,705 970,700 1000,700 
+           C1050,700 1100,710 1150,680" 
+        stroke="#444444" 
+        stroke-width="6" 
+        fill="none" />
+  
+  <!-- Headlights - signature Audi LED style -->
+  <path d="M400,750 C410,745 420,742 430,740 C450,735 470,735 490,740" 
+        stroke="#eeeeee" 
+        stroke-width="4" 
+        fill="none" />
+  
+  <path d="M400,760 C410,755 420,752 430,750 C450,745 470,745 490,750" 
+        stroke="#eeeeee" 
+        stroke-width="4" 
+        fill="none" />
+  
+  <!-- Wheels -->
+  <circle cx="450" cy="840" r="70" fill="#222222" stroke="#333333" stroke-width="10" />
+  <circle cx="450" cy="840" r="35" fill="#111111" stroke="#444444" stroke-width="5" />
+  
+  <circle cx="1450" cy="840" r="70" fill="#222222" stroke="#333333" stroke-width="10" />
+  <circle cx="1450" cy="840" r="35" fill="#111111" stroke="#444444" stroke-width="5" />
+  
+  <!-- Windows and cockpit -->
+  <path d="M850,750 C900,720 950,700 1000,690 C1050,680 1100,680 1150,680" 
+        stroke="#555555" 
+        stroke-width="8" 
+        fill="none" />
+  
+  <!-- Audi rings logo (simplified) -->
+  <circle cx="550" cy="720" r="15" fill="none" stroke="#cccccc" stroke-width="4" />
+  <circle cx="575" cy="720" r="15" fill="none" stroke="#cccccc" stroke-width="4" />
+  <circle cx="600" cy="720" r="15" fill="none" stroke="#cccccc" stroke-width="4" />
+  <circle cx="625" cy="720" r="15" fill="none" stroke="#cccccc" stroke-width="4" />
+  
+  <!-- Light streaks/motion effects -->
+  <rect x="0" y="500" width="1920" height="2" fill="#ffffff" opacity="0.7" />
+  <rect x="0" y="520" width="1920" height="1" fill="#ffffff" opacity="0.5" />
+  <rect x="0" y="540" width="1920" height="1" fill="#ffffff" opacity="0.3" />
+  
+  <!-- Light effects -->
+  <circle cx="420" cy="745" r="30" fill="#ffffff" opacity="0.1" />
+  <circle cx="420" cy="745" r="15" fill="#ffffff" opacity="0.2" />
+  
+  <!-- Road/ground reflection -->
+  <rect x="0" y="880" width="1920" height="200" fill="#111111" />
+  
+  <!-- Reflection highlights -->
+  <path d="M300,880 C400,895 500,900 600,895 C800,885 1000,880 1200,885 C1400,890 1600,885 1800,875" 
+        stroke="#333333" 
+        stroke-width="2" 
+        fill="none" />
+  
+  <path d="M350,900 C450,915 550,920 650,915 C850,905 1050,900 1250,905 C1450,910 1650,905 1750,895" 
+        stroke="#444444" 
+        stroke-width="1" 
+        fill="none" />
+</svg>
